@@ -5,6 +5,38 @@ body, html{
   font-family: "Poppins", sans-serif;
 }
 
+header{
+  display: flex;
+  padding: 0 50px;
+  justify-content: center;
+  place-items: center;
+  margin-top: 20px;
+}
+
+header h1{
+  font-size: 26px;
+  font-weight: 400;
+  width: 100%;
+}
+header div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+header input{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #1a1a1a;
+  border-radius: 15px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
 .artworkCont{
   background-image: url(https://static.wixstatic.com/media/80c686_36d77ddeef454dd3a67eb1d0f79166b3~mv2.jpg);
   width: 100%;
@@ -132,4 +164,61 @@ body, html{
   position: sticky;
   right: 50px;
   z-index: 0;
+}
+
+.topPicks{
+  margin-top: 120px;
+}
+.tpHeader{
+  font-size: 60px;
+  margin-left: 70px;
+}
+
+ul{
+  list-style: none;
+}
+.footerCont{
+  display: flex;
+  margin: 50px 0 30px 0;
+  padding: 0 70px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.footerCont>div{
+  width: 100%;
+  padding: 30px 0;
+}
+footer{
+  padding: 0 70px;
+  margin-top: 50px;
+}
+
+a{
+  color: #000;
+}
+
+.listHolder{
+  border-left: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+
+.mainFooter{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTxt{
+  font-size: 50px;
+  margin-top: 70px;
+}
+.name{
+font-size:40px;
+font-weight: 300;
+}
+
+.menuIcon{
+  display: none;
 }

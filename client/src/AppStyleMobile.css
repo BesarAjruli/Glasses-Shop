@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .artworkCont2{
+        width: 85%;
+        height: 90%;
+    }
+    .artworkCont2 h1{
+        font-size: 40px;
+        width: 300px;
+        line-height: 50px;
+        font-weight: 500;
+    }
+
+    .artworkCont{
+        height: 890px;
+        margin-top: 30px;
+    }
+
+    .deals{
+        padding: 0;
+        flex-direction: column;
+        height: 650px;
+    }
+    .dealTxt{
+        width: 80%;
+        margin: 0;
+        position: absolute;
+        top: 300px;
+    }
+
+    .dealImgContainer{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    footer{
+        padding: 0 30px;
+    }
+    .footerCont{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .listHolder{
+        border-top: 1px solid #000;
+        border-left: 0;
+    }
+    ul{
+        padding: 0;
+    }
+    .menuIcon{
+        display: block;
+    }
+}

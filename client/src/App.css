@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body, html{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.artworkCont{
+  background-image: url(https://static.wixstatic.com/media/80c686_36d77ddeef454dd3a67eb1d0f79166b3~mv2.jpg);
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.artworkCont2{
+  height: 80%;
+  width: 560px;
+  background-color: #fff;
+  display: flex;
+  place-items: center;
+  padding-top: 25px;
+  flex-direction: column;
+}
+.artworkCont2 div{
+  width: 90%;
+  height: 50%;
+  background-image: url(https://images.pexels.com/photos/29391841/pexels-photo-29391841/free-photo-of-stylish-woman-in-neon-glow-with-futuristic-vibes.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.artworkCont2 h1{
+  font-size: 55px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 60px;
+  width: 500px;
+}
+
+.artworkCont2 p {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.artworkCont2 button{
+  width: 200px;
+  height: 45px;
+  border: 1px solid #1a1a1a;
+  border-radius: 15px;
+  background-color: #b01030;
+  color: White;
+  font-size: 18px;
+  margin-top: 15px;
+  transition-duration: 0.3s;
+}
+
+.artworkCont2 button:hover{
+  background-color: #1a1a1a;
+  color: #b01030;
+  border: 1px solid #b01030;
+}
+
+.deals{
+  position: relative;
+  display: flex;
+  place-items: center;
+  padding-left: 50px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.deals img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 250px;
+}
+.dealTxt{
+  background-color: #e3e3e3;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.dealHeader{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.dealHeader + span{
+  font-size: 22px;
+}
+
+.dealHeader + span + span{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.deals div button{
+  width: 200px;
+  height: 45px;
+  border: 1px solid #1a1a1a;
+  border-radius: 15px;
+  background-color: #b01030;
+  color: White;
+  font-size: 18px;
+  margin-top: 15px;
+  transition-duration: 0.3s;
+  margin: 40px 0 10px 0;
+}
+
+.deals div button:hover{
+  background-color: #1a1a1a;
+  color: #b01030;
+  border: 1px solid #b01030;
+}
+
+.dealImgContainer{
+  width: 700px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: sticky;
+  right: 50px;
+  z-index: 0;
+}

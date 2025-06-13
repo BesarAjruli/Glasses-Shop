@@ -45,7 +45,7 @@ function App() {
         </div>
 
         <div className='topPicks'>
-          <span className='tpHeader'>Top Pics</span>
+          <span className='tpHeader'>Top Picks</span>
           <hr />
           <Slideshow/>
         </div>

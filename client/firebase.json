@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "porositonlinegf",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

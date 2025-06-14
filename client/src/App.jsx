@@ -1,27 +1,37 @@
+import { useRef } from 'react';
 import './App.css'
 import './AppStyleMobile.css'
 import Slideshow from './Slideshow'
 import Icon from '@mdi/react';
-import { mdiInstagram, mdiFacebook, mdiMagnify, mdiMenu } from '@mdi/js';
+import { mdiInstagram, mdiFacebook, mdiMagnify, mdiMenu, mdiClose } from '@mdi/js';
 
 function App() {
-
+  const navRef = useRef()
+  const hideSideMenu = () => {
+    navRef.current.style.display = 'none'
+  }
+  
+  const showSideMenu = () => {
+    navRef.current.style.display = 'flex'
+  }
   return (
     <>
       <header>
         <div>
           <h1>Porositonline.gf</h1>
-          <Icon path={mdiMenu} size={1.7} className='menuIcon'></Icon>
+          <Icon path={mdiMenu} size={1.7} className='menuIcon' onClick={showSideMenu}></Icon>
         </div>
         <div>
           <input type="search"/>
           <Icon path={mdiMagnify} size={1.3} className='searchIcon'/>
         </div>
-        <nav>
+        <nav ref={navRef}>
+          <Icon path={mdiClose} size={1} className='closeIcon' onClick={hideSideMenu}></Icon>
+          <img src="https://firebasestorage.googleapis.com/v0/b/aquila-web-hosting.appspot.com/o/Logos%20Others%2F497104525_18164114731356593_263857998778945588_n.jpg?alt=media&token=6f67c660-4fd0-46aa-a407-bdaf9cb84143" alt="logo" />
           <a href="">Home</a>
           <a href="">All Products</a>
           <a href="">Best Seller</a>
-          <a href="">About</a>
+          <a href="" className='about'>About</a>
         </nav>
       </header>
       <main>

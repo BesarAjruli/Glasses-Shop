@@ -222,3 +222,7 @@ font-weight: 300;
 .menuIcon{
   display: none;
 }
+
+nav img{
+  display: none;
+}

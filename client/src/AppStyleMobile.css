@@ -1,6 +1,33 @@
 @media only screen and (max-width: 600px) {
     nav{
         display: none;
+        position: absolute;
+        background-color: #fff;
+        flex-direction: column;
+        width: 80%;
+        right: 0;
+        top: 0;
+        justify-content: center;
+        place-items: center;
+        height: 100vh;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    nav img{
+        display: block;
+        width: 100px;
+        margin-bottom: 50px;
+    }
+    .closeIcon{
+        position: absolute;
+        top: 30px;
+        right: 260px;
     }
     header{
         flex-direction: column;
@@ -15,15 +42,20 @@
         height: 90%;
     }
     .artworkCont2 h1{
-        font-size: 40px;
+        font-size: 35px;
         width: 300px;
         line-height: 50px;
         font-weight: 500;
+    }
+    .artworkCont2 p{
+        font-size: 16px;
     }
 
     .artworkCont{
         height: 890px;
         margin-top: 30px;
+        width: 100%;
+        background-position: center;
     }
 
     .deals{

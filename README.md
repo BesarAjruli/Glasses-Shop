@@ -1,6 +1,6 @@
 # Glass Shop web design
 
-** Technologies used **
+**Technologies used**
 
 * React
 * Firease
